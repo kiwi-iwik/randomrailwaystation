@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+img{
+    max-width: 20%;
+    margin-left: 30px;
+}
+
+.heading{
+    font-weight: 600;
+}
+
+/*navbar*/
+.navbar{
+    background: #fff;
+    margin: 20px;
+}
+
+.navbar .container{
+    display: flex;
+}
+
+/*Utility Classes*/
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  
+}
+
+.container-sm{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    
+}
+/*hero*/
+.hero{
+    display: flex;
+}
+.hero .container{
+    margin-top: 50px;
+}
+.hero .container .amount-section{
+    display: flex;
+    padding-left: 5px;
+    margin: 20px;
+}
+
+.hero #county-num{
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 15px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+
+.hero .amount-content{
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.hero #select-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin-left: 40px;
+}
+
+.hero #select-container select{
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 15px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+.hero .container #submit{
+    margin-left: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.hero .container #submit:hover {
+    background-color: #0056b3;
+}
+ #result-container {
+    margin-top: 20px;
+}
+
+.station-list {
+    margin-top: 20px;
+}
+
+/*station stop*/
+
+.hero .stoprect{
+    width: 700px;
+    height: 500px;
+    border: 10px solid #CCC;
+    background-color: #f7f7f7;
+    border-radius: 2%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+.hero .stoprect .tra_logo{
+    margin-top: 20px;
+    max-width: 40px;
+}
+.hero .stoprect .greenrect{
+    position: absolute;
+    display: flex;
+    width: 680px;
+    height: 80px;
+    background-color: #25CD2D;
+    margin-top: 12%;
+    opacity: 0.8;
+
+}
+
+.hero .stoprect .greenrect .trianlt{
+    margin-top: 3.5%;
+    margin-left: 3%;
+    width: 0; 
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 50px solid #000;
+    border-bottom: 20px solid transparent;
+}
+.hero .stoprect .greenrect .trianrt{
+    margin-top: 3.5%;
+    margin-left: 80%;
+    width: 0; 
+    height: 0;
+    border-top: 20px solid transparent;
+    border-left: 50px solid #000;
+    border-bottom: 20px solid transparent;
+}
+
+.hero .stoprect .start .kmnum1{
+    position: absolute;
+    font-weight: 600;
+    margin-top: 13.5%;
+    margin-left: 5%;
+}
+.hero .stoprect .end .kmnum2{
+    position: absolute;
+    font-weight: 600;
+    margin-top: 13.5%;
+    margin-left: 27%;
+}
+
+.hero .stoprect .prev {
+    display: flex;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 1%;
+}
+.hero .stoprect .next {
+    display: flex;
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 20%;
+}
+.hero .stoprect .prev .prevstation{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero .stoprect .next .nextstation{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.hero .stoprect .prev .enstation{
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 50px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero .stoprect .next .enstation2{
+    margin-top: 4px;
+    margin-left: 10px;
+    font-size: 50px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero .stoprect .towhere{
+    position: absolute;
+}
+
+/*main station*/
+.hero .towhere{
+    position: fixed;
+    text-align: center;
+    margin-left: 54%;
+    margin-top: 5%;
+}
+
+.hero .towhere #destination{
+    font-size: 100px;
+}
+.hero .towhere #destinationEn{
+    margin-bottom: 10px;
+    font-size: 80px;
+    font-family: "PT Sans Narrow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-Hans-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣鐵路車站輪盤</title>
+    <link rel="stylesheet", href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="IMG/TRA_logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="heading"><h1>隨機車站,轉到哪就去哪~</h1></div>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="container">
+            <div class="amount-section">
+                <div class="amount-content">
+                    <p class="hero-p">選擇縣市數量 : </p>
+                </div>
+                <select name="county-num" id="county-num" >
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div id="select-container" class="select-container"></div>
+            <button id="submit">Submimt</button>
+        </div>
+        <div class="towhere">
+            <h2 id="destination">去哪</h2>
+            <h2 id="destinationEn">To Where</h2>
+        </div>
+        <div class="stoprect">
+            <img src="IMG/TRA_logo.png" alt="logo" class="tra_logo">
+            
+            <div class="greenrect">
+                <div class="trianlt"></div>
+                <div class="trianrt"></div>
+            </div>
+            <div class="start">
+                <p class="kmnum1">0 公里(km)</p>
+            </div>
+            <div class="end">
+                <p class="kmnum2">1150 公里(km)</p>
+            </div>
+            <div class="prev">
+                <p class="prevstation" id="prevstation1">我不</p>
+                <p class="enstation" id="enstation1">Wobu</p>
+            </div>
+            <div class="next">
+                <p class="nextstation" id="nextstation1">知道</p>
+                <p class="enstation2" id="enstation2">JhihDao</p>
+            </div>
+
+        </div>
+    </section>
+    <div id="result-container"></div>
+    <div id="stations-display" class="station-list"></div>
+    <section class="mainsign">
+        
+    </section>
+    
+
+    <script src="JS/main.js"></script>
+</body>
+</html>
